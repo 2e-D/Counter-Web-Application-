@@ -1,0 +1,83 @@
+:root {
+    --primaryColor: white;
+    --secondaryColor:blue;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: var(--primaryColor);
+    text-decoration: underline;
+
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: var(--secondaryColor);
+}
+
+
+body {
+    background-image: url(/css-refresh/images/pexels-febi-ariyanto-2101790.jpg);
+    background-size: cover;
+}
+
+
+ #increment-btn {
+border: none;
+color: white;
+display: flex;
+border: 2px solid black;
+font-size: 45px;
+border-radius: 20px;
+}  
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+#increment-btn:hover {
+background-color: red;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+.btn-container-two {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+#save-btn {
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    font-size: 25px;
+}
+
+#save-btn:hover {
+    background-color: red;
+}
+
+
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+
+#save-el {
+    font-size: 24px;
+    border: 2px solid yellow;
+    background-color: white;
+    border-radius: 9px;
+}
